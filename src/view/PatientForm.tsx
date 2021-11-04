@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
 	formInput: {
 		width: 340,
 		height: 45,
-		borderWidth: 2,
+		borderWidth: 1,
 		borderColor: '#448893',
 		borderRadius: 30,
 		padding: 10,
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
         color: '#000',
     },
     selected: {
-        borderWidth: 2,
+        borderWidth: 1,
         borderColor: '#448893',
         borderRadius: 30,
         marginRight: 5,
