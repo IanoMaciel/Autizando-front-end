@@ -5,7 +5,7 @@ import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawe
 export function CustomDrawer(props)
 {
     return(
-        <View style={{flex:1}}> 
+        <View style={styles.container}> 
             <View style={styles.areaProfile}>
                 <Image
                     source={ require('../img/profile.png') }
@@ -48,6 +48,10 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: 200
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        bottom: 0,
+        marginBottom: 50
     }
 });
