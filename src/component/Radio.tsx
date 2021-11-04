@@ -72,7 +72,7 @@ export function Radio()
 
 const styles = StyleSheet.create({
     input: {
-        borderWidth: 2,
+        borderWidth: 1,
         borderRadius: 30,
         borderColor: '#448893',
         width: 143,
